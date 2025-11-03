@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <!-- Primary Meta Tags -->
+  <!-- TODO: Replace with your paper title and author names -->
+  <meta name="title" content="PAPER_TITLE - AUTHOR_NAMES">
+  <!-- TODO: Write a compelling 150-160 character description of your research -->
+  <meta name="description" content="BRIEF_DESCRIPTION_OF_YOUR_RESEARCH_CONTRIBUTION_AND_FINDINGS">
+  <!-- TODO: Add 5-10 relevant keywords for your research area -->
+  <meta name="keywords" content="KEYWORD1, KEYWORD2, KEYWORD3, machine learning, computer vision, AI">
+  <!-- TODO: List all authors -->
+  <meta name="author" content="FIRST_AUTHOR_NAME, SECOND_AUTHOR_NAME">
+  <meta name="robots" content="index, follow">
+  <meta name="language" content="English">
+  
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="article">
+  <!-- TODO: Replace with your institution or lab name -->
+  <meta property="og:site_name" content="INSTITUTION_OR_LAB_NAME">
+  <!-- TODO: Same as paper title above -->
+  <meta property="og:title" content="PAPER_TITLE">
+  <!-- TODO: Same as description above -->
+  <meta property="og:description" content="BRIEF_DESCRIPTION_OF_YOUR_RESEARCH_CONTRIBUTION_AND_FINDINGS">
+  <!-- TODO: Replace with your actual website URL -->
+  <meta property="og:url" content="https://YOUR_DOMAIN.com/YOUR_PROJECT_PAGE">
+  <!-- TODO: Create a 1200x630px preview image and update path -->
+  <meta property="og:image" content="https://YOUR_DOMAIN.com/static/images/social_preview.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="PAPER_TITLE - Research Preview">
+  <meta property="article:published_time" content="2024-01-01T00:00:00.000Z">
+  <meta property="article:author" content="FIRST_AUTHOR_NAME">
+  <meta property="article:section" content="Research">
+  <meta property="article:tag" content="KEYWORD1">
+  <meta property="article:tag" content="KEYWORD2">
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image">
+  <!-- TODO: Replace with your lab/institution Twitter handle -->
+  <meta name="twitter:site" content="@YOUR_TWITTER_HANDLE">
+  <!-- TODO: Replace with first author's Twitter handle -->
+  <meta name="twitter:creator" content="@AUTHOR_TWITTER_HANDLE">
+  <!-- TODO: Same as paper title above -->
+  <meta name="twitter:title" content="PAPER_TITLE">
+  <!-- TODO: Same as description above -->
+  <meta name="twitter:description" content="BRIEF_DESCRIPTION_OF_YOUR_RESEARCH_CONTRIBUTION_AND_FINDINGS">
+  <!-- TODO: Same as social preview image above -->
+  <meta name="twitter:image" content="https://YOUR_DOMAIN.com/static/images/social_preview.png">
+  <meta name="twitter:image:alt" content="PAPER_TITLE - Research Preview">
+
+  <!-- Academic/Research Specific -->
+  <meta name="citation_title" content="PAPER_TITLE">
+  <meta name="citation_author" content="FIRST_AUTHOR_LAST, FIRST_AUTHOR_FIRST">
+  <meta name="citation_author" content="SECOND_AUTHOR_LAST, SECOND_AUTHOR_FIRST">
+  <meta name="citation_publication_date" content="2024">
+  <meta name="citation_conference_title" content="CONFERENCE_NAME">
+  <meta name="citation_pdf_url" content="https://YOUR_DOMAIN.com/static/pdfs/paper.pdf">
+  
+  <!-- Additional SEO -->
+  <meta name="theme-color" content="#2563eb">
+  <meta name="msapplication-TileColor" content="#2563eb">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  
+  <!-- Preconnect for performance -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://ajax.googleapis.com">
+  <link rel="preconnect" href="https://documentcloud.adobe.com">
+  <link rel="preconnect" href="https://cdn.jsdelivr.net">
+
+
+  <!-- TODO: Replace with your paper title and authors -->
+  <title>PAPER_TITLE - AUTHOR_NAMES | Academic Research</title>
+  
+  <!-- Favicon and App Icons -->
+  <link rel="icon" type="image/x-icon" href="static/images/favicon.ico">
+  <link rel="apple-touch-icon" href="static/images/favicon.ico">
+  
+  <!-- Critical CSS - Load synchronously -->
+  <link rel="stylesheet" href="static/css/bulma.min.css">
+  <link rel="stylesheet" href="static/css/index.css">
+  
+  <!-- Non-critical CSS - Load asynchronously -->
+  <link rel="preload" href="static/css/bulma-carousel.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <link rel="preload" href="static/css/bulma-slider.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <link rel="preload" href="static/css/fontawesome.all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <!-- <link rel="preload" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'"> -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  
+  <!-- Fallback for browsers that don't support preload -->
+  <noscript>
+    <link rel="stylesheet" href="static/css/bulma-carousel.min.css">
+    <link rel="stylesheet" href="static/css/bulma-slider.min.css">
+    <link rel="stylesheet" href="static/css/fontawesome.all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  </noscript>
+  
+  <!-- Fonts - Optimized loading -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  
+  <!-- Defer non-critical JavaScript -->
+  <script defer src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script defer src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
+  <script defer src="static/js/fontawesome.all.min.js"></script>
+  <script defer src="static/js/bulma-carousel.min.js"></script>
+  <script defer src="static/js/bulma-slider.min.js"></script>
+  <script defer src="static/js/index.js"></script>
+  
+  <!-- Structured Data for Academic Papers -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ScholarlyArticle",
+    "headline": "PAPER_TITLE",
+    "description": "BRIEF_DESCRIPTION_OF_YOUR_RESEARCH_CONTRIBUTION_AND_FINDINGS",
+    "author": [
+      {
+        "@type": "Person",
+        "name": "FIRST_AUTHOR_NAME",
+        "affiliation": {
+          "@type": "Organization",
+          "name": "INSTITUTION_NAME"
+        }
+      },
+      {
+        "@type": "Person",
+        "name": "SECOND_AUTHOR_NAME",
+        "affiliation": {
+          "@type": "Organization",
+          "name": "INSTITUTION_NAME"
+        }
+      }
+    ],
+    "datePublished": "2024-01-01",
+    "publisher": {
+      "@type": "Organization",
+      "name": "CONFERENCE_OR_JOURNAL_NAME"
+    },
+    "url": "https://YOUR_DOMAIN.com/YOUR_PROJECT_PAGE",
+    "image": "https://YOUR_DOMAIN.com/static/images/social_preview.png",
+    "keywords": ["KEYWORD1", "KEYWORD2", "KEYWORD3", "machine learning", "computer vision"],
+    "abstract": "FULL_ABSTRACT_TEXT_HERE",
+    "citation": "BIBTEX_CITATION_HERE",
+    "isAccessibleForFree": true,
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "mainEntity": {
+      "@type": "WebPage",
+      "@id": "https://YOUR_DOMAIN.com/YOUR_PROJECT_PAGE"
+    },
+    "about": [
+      {
+        "@type": "Thing",
+        "name": "RESEARCH_AREA_1"
+      },
+      {
+        "@type": "Thing", 
+        "name": "RESEARCH_AREA_2"
+      }
+    ]
+  }
+  </script>
+  
+  <!-- Website/Organization Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "INSTITUTION_OR_LAB_NAME",
+    "url": "https://YOUR_INSTITUTION_WEBSITE.com",
+    "logo": "https://YOUR_DOMAIN.com/static/images/favicon.ico",
+    "sameAs": [
+      "https://twitter.com/YOUR_TWITTER_HANDLE",
+      "https://github.com/YOUR_GITHUB_USERNAME"
+    ]
+  }
+  </script>
+</head>
+<body>
+
+
+  <!-- Scroll to Top Button -->
+  <button class="scroll-to-top" onclick="scrollToTop()" title="Scroll to top" aria-label="Scroll to top">
+    <i class="fas fa-chevron-up"></i>
+  </button>
+
+  <main id="main-content">
+  <section class="hero">
+    <div class="hero-body">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered">
+          <div class="column has-text-centered">
+            <!-- TODO: Replace with your paper title -->
+            <h1 class="title is-1 publication-title">Benchmark Datasets for Lead-Lag Forecasting on Social Platforms</h1>
+            <div class="is-size-5 publication-authors">
+              <!-- TODO: Replace with your paper authors and their personal links -->
+              <span class="author-block">
+                <a href="https://kimia.boo/" target="_blank">Kimia Kazemian</a><sup>*</sup>,</span>
+                <span class="author-block">
+                  <a href="https://zhenzhel.github.io/" target="_blank">Zhenzhen Liu</a><sup>*</sup>,</span>
+                  <span class="author-block">
+                    <a href="https://firryyang.github.io/" target="_blank">Yangfanyu Yang</a>,
+                  </span>
+                  <span class="author-block">
+                    <a href="https://www.cs.cornell.edu/~katieluo/" target="_blank">Katie Z Luo</a>,
+                  </span>
+                  <span class="author-block">
+                    Shuhan Gu</a>,
+                  </span>
+                  <span class="author-block">
+                    Moyun Du</a>,
+                  </span>
+                  <span class="author-block">
+                    <a href="https://youngxinyu1802.github.io/" target="_blank">Xinyu Yang</a>,
+                  </span>
+                  <span class="author-block">
+                    Jack Jansons</a>,
+                  </span>
+                  <span class="author-block">
+                    <a href="https://www.cs.cornell.edu/~kilian/" target="_blank">Kilian Q Weinberger</a>,
+                  </span>
+                  <span class="author-block">
+                    <a href="https://johnthickstun.com/" target="_blank">John Thickstun</a>,
+                  </span>
+                  <span class="author-block">
+                    <a href="https://bowers.cornell.edu/people/yian-yin" target="_blank">Yian Yin</a>,
+                  </span>
+                  <span class="author-block">
+                    <a href="https://sdean.website/" target="_blank">Sarah Dean</a>
+                  </span>
+                  </div>
+
+                  <div class="is-size-5 publication-authors">
+                    <!-- TODO: Replace with your institution and conference/journal info -->
+                    <span class="author-block">Cornell University<br>2025</span>
+                    <!-- TODO: Remove this line if no equal contribution -->
+                    <span class="eql-cntrb"><small><br><sup>*</sup>Indicates Equal Contribution</small></span>
+                  </div>
+
+                  <div class="column has-text-centered">
+                    <div class="publication-links">
+                         <!-- TODO: Update with your arXiv paper ID -->
+                      <span class="link-block">
+                        <a href="https://arxiv.org/pdf/<ARXIV PAPER ID>.pdf" target="_blank"
+                        class="external-link button is-normal is-rounded is-dark">
+                        <span class="icon">
+                          <i class="fas fa-file-pdf"></i>
+                        </span>
+                        <span>Paper</span>
+                      </a>
+
+                <!-- TODO: Replace with your GitHub repository URL -->
+                  <span class="link-block">
+                    <a href="https://arxiv-usage-487135306902.us-central1.run.app/" target="_blank"
+                    class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="ai ai-arxiv"></i>
+                    </span>
+                    <span>ArXiv Data Download</span>
+                  </a>
+                </span>
+
+                <!-- TODO: Replace with your GitHub repository URL -->
+                  <span class="link-block">
+                    <a href="https://arxiv-usage-487135306902.us-central1.run.app/" target="_blank"
+                    class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="fab fa-github"></i>
+                    </span>
+                    <span>GitHub Data Download</span>
+                  </a>
+                </span>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- Paper abstract -->
+<section class="section hero is-light">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+          <!-- TODO: Replace with your paper abstract -->
+          <p>
+            Social and collaborative platforms emit multivariate time-series traces in which early interactions - such as views, likes, or downloads - are followed, sometimes months or years later, by higher impact like citations, sales, or reviews. We formalize this setting as <b>Lead-Lag Forecasting (LLF): given an early usage channel (the lead), predict a correlated but temporally shifted outcome channel (the lag).</b> Despite the ubiquity of such patterns, LLF has not been treated as a unified forecasting problem within the time-series community, largely due to the absence of standardized datasets. To anchor research in LLF, here we present two high-volume benchmark datasets—arXiv (accesses → citations of 2.3M papers) and GitHub (pushes → stars/forks of 3M repositories)—and outline additional domains with analogous lead–lag dynamics, including Wikipedia (page-views → edits), Spotify (streams → concert attendance), e-commerce (click-throughs → purchases), and LinkedIn profile (views → messages). Our datasets provide ideal testbeds for lead–lag forecasting, by capturing long-horizon dynamics across years, spanning the full spectrum of outcomes, and avoiding survivorship bias in sampling. We documented all technical details of data curation and cleaning, verified the presence of lead-lag dynamics through statistical and classification tests, and benchmarked parametric and non-parametric baselines for regression. Our study establishes LLF as a novel forecasting paradigm and lays an empirical foundation for its systematic exploration in social and usage data.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End paper abstract -->
+
+<!-- NEW: ArXiv Dataset Section -->
+    <section class="section" id="dataset-arxiv">
+      <div class="container is-max-desktop">
+        <h2 class="title is-3">ArXiv Dataset</h2>
+        <div class="content">
+          <p>
+            Our ArXiv dataset couples access logs with citation trajectories to study lead–lag dynamics between early usage and long-term scholarly impact. We construct access time series from ArXiv web logs (weekly coverage from 2006-07-03 to 2013-06-30; daily from 2013-07-01 onward), remove likely bots (≈44% of 4.87B raw downloads), and aggregate per paper. We then join these records with the Semantic Scholar dump (≈220M papers; ≈2.66B citation pairs), estimating citation timestamps by the publication date of the citing paper. The resulting corpus covers ≈2.3M ArXiv papers, of which ≈2.0M have both access and citation sequences. To support benchmarking, we provide random train/val/labeled-test splits for papers published up to 2018-09-25 and an unlabeled-test split for later submissions; edge cases and pre-2013 access records are isolated in a train_extra split. Category distributions reflect the broader ArXiv mix (notably cs, math, cond-mat, astro-ph). Together, these design choices yield a large-scale, time-resolved testbed for lead-lag forecasting on scholarly content.
+          </p>
+        </div>
+        <div class="columns is-multiline">
+          <div class="column is-one-third">
+            <div class="box has-text-centered">
+              <p class="heading"># Papers</p>
+              <p class="title is-4">2.3M</p>
+            </div>
+          </div>
+          <div class="column is-one-third">
+            <div class="box has-text-centered">
+              <p class="heading">Time Span</p>
+              <p class="title is-4">2008–2025</p>
+            </div>
+          </div>
+          <div class="column is-one-third">
+            <div class="box has-text-centered">
+              <p class="heading">Modalities</p>
+              <p class="title is-4">Accesses→Citations</p>
+            </div>
+          </div>
+        </div>
+        <p>
+          <a class="button is-dark is-light" href="https://arxiv-usage-487135306902.us-central1.run.app/" target="_blank">
+            <span class="icon"><i class="fas fa-download"></i></span><span>Download ArXiv Data</span>
+          </a>
+        </p>
+      </div>
+      
+<section class="section">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered">
+      
+      <div class="column">
+        <figure>
+          <img src="static/images/repo_creation_times_flat.png" alt="ArXiv correlation coefficients plot" loading="lazy">
+          <figcaption class="has-text-centered" style="margin-top: 0.5rem;">
+            Arxiv paper publication time.
+          </figcaption>
+        </figure>
+      </div>
+
+      <div class="column">
+        <figure>
+          <img src="static/images/coarse_category_distribution.png" alt="GitHub platform distribution chart" loading="lazy">
+          <figcaption class="has-text-centered" style="margin-top: 0.5rem;">
+            Distribution across paper categories.
+          </figcaption>
+        </figure>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- NEW: GitHub Dataset Section -->
+    <section class="section" id="dataset-github">
+      <div class="container is-max-desktop">
+        <h2 class="title is-3">GitHub Dataset</h2>
+        <div class="content">
+          <p>
+            Our GitHub dataset links event data with package metadata to explore lead–lag dynamics between early developer engagement and long-term repository popularity. We construct engagement time series from GH Archive event data (coverage from 2011-02-12 onward), focusing on repositories linked to software packages from an Ecosyste.ms data dump. The left join between the Ecosyste.ms metadata and GH Archive events yields a final corpus of 3M package repositories, of which 2.9M have recorded event histories. For benchmarking, we provide random train (938K), validation (235K), and test (235K) splits. Repositories with histories shorter than five years form an unlabeled test set (1.57M), while examples with data anomalies are isolated in an extra training set (58K). The dataset’s distribution is characterized by the prevalence of packages across various software platforms. Together, these design choices yield a large-scale, time-resolved testbed for lead-lag forecasting on software development projects.
+          </p>
+        </div>
+        <div class="columns is-multiline">
+          <div class="column is-one-third">
+            <div class="box has-text-centered">
+              <p class="heading"># Repos</p>
+              <p class="title is-4">3.0M</p>
+            </div>
+          </div>
+          <div class="column is-one-third">
+            <div class="box has-text-centered">
+              <p class="heading">Time Span</p>
+              <p class="title is-4">2011–2025</p>
+            </div>
+          </div>
+          <div class="column is-one-third">
+            <div class="box has-text-centered">
+              <p class="heading">Modalities</p>
+              <p class="title is-4">Pushes/Stars→Forks</p>
+            </div>
+          </div>
+        </div>
+        <p>
+          <!-- <a class="button is-dark" href="https://github.com/YOUR REPO HERE" target="_blank">
+            <span class="icon"><i class="fab fa-github"></i></span><span>Toolkit / Code</span>
+          </a> -->
+          <a class="button is-dark is-light" href="https://arxiv-usage-487135306902.us-central1.run.app/" target="_blank">
+            <span class="icon"><i class="fas fa-download"></i></span><span>Download GitHub Data</span>
+          </a>
+        </p>
+      </div>
+    </section>
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered">
+      
+      <div class="column">
+        <figure>
+          <img src="static/images/github_repo_creation_times.png" alt="ArXiv correlation coefficients plot" loading="lazy">
+          <figcaption class="has-text-centered" style="margin-top: 0.5rem;">
+            Github Repository creation timeline.
+          </figcaption>
+        </figure>
+      </div>
+
+      <div class="column">
+        <figure>
+          <img src="static/images/github_platform_distribution_top15.png" alt="GitHub platform distribution chart" loading="lazy">
+          <figcaption class="has-text-centered" style="margin-top: 0.5rem;">
+            Distribution across coarse packages.
+          </figcaption>
+        </figure>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+
+<!-- End image carousel -->
+
+
+
+<!--BibTex citation -->
+  <section class="section" id="BibTeX">
+    <div class="container is-max-desktop content">
+      <div class="bibtex-header">
+        <h2 class="title">BibTeX</h2>
+        <button class="copy-bibtex-btn" onclick="copyBibTeX()" title="Copy BibTeX to clipboard">
+          <i class="fas fa-copy"></i>
+          <span class="copy-text">Copy</span>
+        </button>
+      </div>
+      <pre id="bibtex-code"><code>@article{YourPaperKey2024,
+  title={Your Paper Title Here},
+  author={First Author and Second Author and Third Author},
+  journal={Conference/Journal Name},
+  year={2024},
+  url={https://your-domain.com/your-project-page}
+}</code></pre>
+    </div>
+</section>
+<!--End BibTex citation -->
+
+
+  <footer class="footer">
+  <div class="container">
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+
+          <p>
+            This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Academic Project Page Template</a> which was adopted from the <a href="https://nerfies.github.io" target="_blank">Nerfies</a> project page.
+            You are free to borrow the source code of this website, we just ask that you link back to this page in the footer. <br> This website is licensed under a <a rel="license"  href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative
+            Commons Attribution-ShareAlike 4.0 International License</a>.
+          </p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- Statcounter tracking code -->
+  
+<!-- You can add a tracker to track page visits by creating an account at statcounter.com -->
+
+    <!-- End of Statcounter Code -->
+
+  </body>
+  </html>
