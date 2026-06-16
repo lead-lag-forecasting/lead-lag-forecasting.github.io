@@ -74,7 +74,7 @@
 
 
   <!-- TODO: Replace with your paper title and authors -->
-  <title>PAPER_TITLE - AUTHOR_NAMES | Academic Research</title>
+  <title>Benchmark Datasets for Lead-Lag Forecasting on Social Platforms | Academic Research</title>
   
   <!-- Favicon and App Icons -->
   <link rel="icon" type="image/x-icon" href="static/images/favicon.ico">
@@ -235,7 +235,7 @@
 
                   <div class="is-size-5 publication-authors">
                     <!-- TODO: Replace with your institution and conference/journal info -->
-                    <span class="author-block">Cornell University<br>2025</span>
+                    <span class="author-block">Cornell University<br>KDD 2026</span>
                     <!-- TODO: Remove this line if no equal contribution -->
                     <span class="eql-cntrb"><small><br><sup>*</sup>Indicates Equal Contribution</small></span>
                   </div>
@@ -274,6 +274,16 @@
                   </a>
                 </span>
 
+                <span class="link-block">
+                    <a href="https://github.com/kimzemian/LLF" target="_blank"
+                    class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="fab fa-github"></i>
+                    </span>
+                    <span>Code</span>
+                  </a>
+                </span>
+
             </div>
           </div>
         </div>
@@ -292,7 +302,7 @@
         <div class="content has-text-justified">
           <!-- TODO: Replace with your paper abstract -->
           <p>
-            Social and collaborative platforms emit multivariate time-series traces in which early interactions - such as views, likes, or downloads - are followed, sometimes months or years later, by higher impact like citations, sales, or reviews. We formalize this setting as <b>Lead-Lag Forecasting (LLF): given an early usage channel (the lead), predict a correlated but temporally shifted outcome channel (the lag).</b> Despite the ubiquity of such patterns, LLF has not been treated as a unified forecasting problem within the time-series community, largely due to the absence of standardized datasets. To anchor research in LLF, here we present two high-volume benchmark datasets—arXiv (accesses → citations of 2.3M papers) and GitHub (pushes → stars/forks of 3M repositories)—and outline additional domains with analogous lead–lag dynamics, including Wikipedia (page-views → edits), Spotify (streams → concert attendance), e-commerce (click-throughs → purchases), and LinkedIn profile (views → messages). Our datasets provide ideal testbeds for lead–lag forecasting, by capturing long-horizon dynamics across years, spanning the full spectrum of outcomes, and avoiding survivorship bias in sampling. We documented all technical details of data curation and cleaning, verified the presence of lead-lag dynamics through statistical and classification tests, and benchmarked parametric and non-parametric baselines for regression. Our study establishes LLF as a novel forecasting paradigm and lays an empirical foundation for its systematic exploration in social and usage data.
+            Social and collaborative platforms emit multivariate time-series traces in which early interactions -- such as views, likes, or downloads -- are followed, sometimes months or years later, by higher impact like citations, sales, or reviews. We formalize this setting as Lead-Lag Forecasting (LLF): given an early usage channel (the lead), predict a correlated but temporally shifted outcome channel (the lag). Despite the ubiquity of such patterns, LLF has not been treated as a unified forecasting problem within the time-series community, largely due to the absence of standardised datasets. To anchor research in LLF, here we present two high-volume benchmark datasets: arXiv (accesses -> citations of 2.3M papers) and GitHub (pushes/stars -> forks of 3M repositories). Our datasets provide ideal testbeds for lead-lag forecasting, by capturing long-horizon dynamics across years, spanning the full spectrum of outcomes, and avoiding survivorship bias in sampling. We documented all technical details of data curation and cleaning, verified the presence of lead-lag dynamics through statistical and classification tests, and benchmarked parametric and non-parametric baselines for regression. Our study establishes LLF as a novel forecasting paradigm and lays an empirical foundation for its systematic exploration in social and usage data.
           </p>
         </div>
       </div>
@@ -320,7 +330,7 @@
           <div class="column is-one-third">
             <div class="box has-text-centered">
               <p class="heading">Time Span</p>
-              <p class="title is-4">2008–2025</p>
+              <p class="title is-4">2006–2025</p>
             </div>
           </div>
           <div class="column is-one-third">
@@ -454,6 +464,18 @@
     </div>
 </section>
 <!--End BibTex citation -->
+
+<!-- Acknowledgements -->
+<section class="section" id="Acknowledgements">
+  <div class="container is-max-desktop content">
+    <h2 class="title">Acknowledgements</h2>
+    <p>
+      <!-- TODO: Replace with your acknowledgement text -->
+      This work was funded by NSF CCF-2312774, NSF OAC-2311521, NSF IIS-2442137, NSF TIP-2404035, NASA 80NSSC25M7039, a PCCW Affinito-Stewart Award, a gift to the LinkedIn-Cornell Bowers CIS Strategic Partnership, an AI2050 Early Career Fellowship program at Schmidt Sciences, and NewYork-Presbyterian for the NYPCornell Cardiovascular AI Collaboration.
+    </p>
+  </div>
+</section>
+<!-- End Acknowledgements -->
 
 
   <footer class="footer">
